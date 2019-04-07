@@ -33,7 +33,6 @@ export default class DogHistoric extends Component {
 
           return (
             <div className="main">
-              <span>hello</span>
               <p>{JSON.stringify(historic)}</p>
             </div>
           );
