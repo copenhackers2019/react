@@ -1,0 +1,25 @@
+.dogs-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.dogs-items {
+  list-style: none;
+  display: flex;
+  flex: 1;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 2px 9px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 9px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 9px -3px rgba(0, 0, 0, 0.75);
+}
+
+.dogs-items.active {
+  border-color: #61dafb;
+  border-style: solid;
+  border-width: 2px;
+  -webkit-box-shadow: 0px 2px 9px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 9px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 9px -3px rgba(0, 0, 0, 0.75);
+}

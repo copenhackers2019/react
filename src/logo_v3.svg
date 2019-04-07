@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="110px" viewBox="0 0 119 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>logo_v3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" transform="translate(-115.000000, -48.000000)" stroke="#61DAFB" stroke-width="3">
+            <g id="logo_v3" transform="translate(111.637586, 46.785387)">
+                <ellipse id="Oval" transform="translate(18.000000, 42.786957) rotate(-25.000000) translate(-18.000000, -42.786957) " cx="18" cy="42.7869571" rx="12" ry="16"></ellipse>
+                <ellipse id="Oval" transform="translate(46.319374, 21.000000) rotate(-15.000000) translate(-46.319374, -21.000000) " cx="46.3193739" cy="21" rx="13" ry="17"></ellipse>
+                <ellipse id="Oval" transform="translate(80.319374, 20.000000) rotate(15.000000) translate(-80.319374, -20.000000) " cx="80.3193739" cy="20" rx="13" ry="17"></ellipse>
+                <ellipse id="Oval" transform="translate(108.000000, 43.786957) rotate(25.000000) translate(-108.000000, -43.786957) " cx="108" cy="43.7869571" rx="12" ry="16"></ellipse>
+                <path d="M63.5441187,109.677647 C88.3969325,109.677647 108.362414,109.529861 108.362414,87.7146134 C108.362414,80.7552924 102.887113,74.0094354 100.520158,71.6362872 C98.1532034,69.2631391 93.5057014,63.8998834 90.8461734,59.3246649 C85.5155907,50.1543985 73.6587604,44.2146134 63.3624144,44.2146134 C53.0660684,44.2146134 41.2092381,50.1543985 35.8786554,59.3246649 C33.2191274,63.8998834 28.5716254,69.2631391 26.2046704,71.6362872 C23.8377154,74.0094354 18.3624144,80.7552924 18.3624144,87.7146134 C18.3624144,109.529861 38.691305,109.677647 63.5441187,109.677647 Z" id="Oval"></path>
+            </g>
+        </g>
+    </g>
+</svg>

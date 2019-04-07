@@ -1,0 +1,20 @@
+.main {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar-container {
+  width: 30vw;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}

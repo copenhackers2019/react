@@ -1,0 +1,16 @@
+.status-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.status-title {
+  padding: 4px 7px;
+  background-color: white;
+  color: black;
+}
+.status-value {
+  padding: 4px 6px;
+  white-space: nowrap;
+}

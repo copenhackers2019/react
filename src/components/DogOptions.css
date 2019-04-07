@@ -1,0 +1,40 @@
+.options-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.option-container {
+  margin: 20px;
+  border: 2px solid white;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.option-container:hover {
+  background-color: white;
+  color: black;
+}
+.option-historic {
+  border: 2px solid orange;
+  color: orange;
+}
+.option-lost {
+  border: 2px solid red;
+  color: red;
+}
+.option-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.option-title {
+  font-size: 16px;
+}
