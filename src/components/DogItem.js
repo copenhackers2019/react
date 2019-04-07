@@ -17,9 +17,6 @@ export default class DogItem extends Component {
           <div className={"dog-name"}>
             <span>{this.props.name}</span>
           </div>
-          <div className={"dog-details"}>
-            <span>{this.props.name}</span>
-          </div>
         </div>
       </div>
     );

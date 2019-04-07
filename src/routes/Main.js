@@ -9,6 +9,10 @@ import {
 } from "react-router-dom";
 import DogDetails from "./DogDetails";
 import Owner from "./Owner";
+import DogHistoric from "./DogHistoric";
+import DogLost from "./DogLost";
+import DogVaccines from "./DogVaccines";
+import DogOwnership from "./DogOwnership";
 
 export default class Main extends Component {
   render() {

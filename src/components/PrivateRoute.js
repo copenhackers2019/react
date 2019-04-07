@@ -24,12 +24,26 @@ export default class PrivateRoute extends Component {
 }
  */
 
-import React, { Component } from "react";
+import React, { useContext } from "react";
 import { Route, Redirect } from "react-router-dom";
 import * as blockstack from "blockstack";
+import { AppContext } from "./AppProvider";
 
 export default function PrivateRoute({ component: Component, ...rest }) {
-  console.log("USER SIGNED IN", blockstack.isUserSignedIn());
+  console.log(
+    "USER SIGNED IN",
+    blockstack.isUserSignedIn(),
+    blockstack.isSignInPending()
+  );
+  if (blockstack.isSignInPending()) {
+    blockstack.handlePendingSignIn().then(function(userData) {
+      console.log("USER DATA", userData);
+      // TODO: call backend with userData.identityAddress as uid
+      const { storeUserId } = useContext(AppContext);
+      storeUserId(userData.identityAddress);
+      window.location = window.location.origin;
+    });
+  }
   return (
     <Route
       {...rest}

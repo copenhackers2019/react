@@ -2,19 +2,10 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import * as blockstack from "blockstack";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Redirect,
-  BrowserRouter,
-  Switch
-} from "react-router-dom";
+import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Login from "./routes/auth/Login";
 import Main from "./routes/Main";
 import PrivateRoute from "./components/PrivateRoute";
-import DogDetails from "./routes/DogDetails";
-import Owner from "./routes/Owner";
 
 class App extends Component {
   constructor(props) {

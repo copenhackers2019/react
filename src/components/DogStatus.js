@@ -13,13 +13,16 @@ export default class DogStatus extends Component {
     return (
       <ul className={"dog-status-container"}>
         <li className={"dog-status-header"}>
-          <Status title="state" value="owned" />
+          <Status title="owner" value={this.props.dog.owner} />
         </li>
         <li className={"dog-status-header"}>
-          <Status title="age" value="4 years" />
+          <Status
+            title="age"
+            value={String(Math.round(this.props.dog.age / 12) + " years")}
+          />
         </li>
         <li className={"dog-status-header"}>
-          <Status title="breed" value="labrador" />
+          <Status title="breed" value={this.props.dog.breed} />
         </li>
       </ul>
     );

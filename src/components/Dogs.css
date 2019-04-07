@@ -3,6 +3,10 @@
   flex-direction: column;
   padding-left: 0;
 }
+.dogs-container a {
+  text-decoration: none;
+  color: black;
+}
 .dogs-items {
   list-style: none;
   display: flex;
